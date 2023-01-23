@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  transition: 500ms;
+}
+.App h1{
+  position: absolute;
+  top: 50px;
+  font-size: 50px;
+  color: white;
+}
+.container{
+  background-color: white;
+  padding: 20px;
+  font-size: 20px;
+  max-width: 300px;
+  min-height: 200px;
+  position: relative;
+  box-shadow: 1px 1px 10px 5px rgba(73, 107, 133, 0.514);
+  transition: 500ms;
+  margin: 0;
+}
+
+h3{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 50px;
+}
+
+.button--next{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  transition: 500ms;
+}
+
+.quote--icon{
+  font-size: 50px;
+}
+
+button:hover{
+  cursor: pointer;
+  color: rgba(7, 11, 14, 0.363);
+}
